@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: Poppins-Light-Italic;
+    src: url(fonts/Poppins/Poppins-ExtraLightItalic.ttf);
+}
+
+.navbar{
+    display: flex;
+    height: 75px;
+    background-color:#1F2937 ;
+    justify-content: center;
+}
+.navbar-elements{
+    display: flex;
+    width: 1050px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+font-size: 24px;
+color: #F9FAf8;
+font-weight: bold;
+
+}
+
+.nav-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-one, .link-two, .link-three{
+    color:#E5E7EB;
+    font-size: 18px;
+    padding: 12px;
+}
+.hero{
+    height: 450px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-elements{
+width: 1050px;
+display: flex;
+justify-content: space-between;
+height: 250px;
+align-items: center;
+}
+
+.hero-image{
+    width: 500px;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.hero-text{
+    color:#F9FAf8;
+    width: 475px;
+
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+p{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.placeholder-text{
+    color: black;
+    text-align: center;
+    margin: 75px auto;
+}
+.main-signup-button{
+    text-decoration: none;
+    font-size: 18px;
+    color:#F9FAf8;
+    font-weight: bold;
+    padding:8px 25px;
+    margin-top: 20px;
+    background-color:#3882F6;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.information{
+    height: 450px;
+    background-color: #F9FAf8;
+    display: flex;
+    justify-content: center;
+}
+.information-elements{
+    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-text{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.objects{
+    display: flex;
+    justify-content: space-between
+    ;
+}
+
+.object{
+    width: 175px;
+    height: 175px;
+    border: 3px solid #3882F6;
+    background-color: #F9FAF8;
+    border-radius: 20px;
+}
+
+.box p{
+    color: #1F2937;
+    text-align: center;
+    width: 180px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.object-1, .object-2, .object-3, .object-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.object p{
+    color:#1F2937
+}
+
+.quote{
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container{
+    display: flex;
+    width: 825px;
+    flex-direction: column;
+}
+
+.quote-words{
+    font-family: Poppins-Light-Italic;
+    font-size: 32px;
+    font-weight: 100;
+    color:#1F2937
+}
+
+.Thor-mention{
+color: black;
+font-weight: 900;
+font-size: 20px;
+text-align: right;
+margin-top: 10px;
+}
+
+.signup{
+    height: 300px;
+    background-color: #F9FAf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box{
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.signup-elements{
+    width: 750px;
+    height: 90px;
+
+}
+.signup-elements{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CTA{
+    font-size: 22px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.last-signup-button{
+    color: #F9FAF8;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid #F9FAF8;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+.footer{
+    height: 75px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
